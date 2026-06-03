@@ -57,7 +57,7 @@ adanos_api_key = YOUR_ADANOS_API_KEY    # Optional: enables Retail Sentiment Ins
 chmod +x deploy.sh
 ./deploy.sh start
 
-#if deploy.sh not working then
+#if deploy.sh not working  then
 python3 -m venv venv                                                                                                                                           
 source venv/bin/activate
 pip install -r requirements-equity.txt                                                                                                                         
